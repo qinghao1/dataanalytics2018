@@ -7,10 +7,10 @@
 4. Examine this mapping. If there are collisions, may need to run matching algorithm to ensure distinctness
 
 ## Part B
-1. Generate labeled data (3d, convolutional window by time)
+1. Generate labeled data (3d, window by time)
     - Window size is hyperparameter, has to be odd, should be small (3x3 possible)
     - Time is a hyperparameter, because whole dataset is too big, limit to past few days
-1. Using labeled data (50), learn parameters of the given function and see total loss
+1. Using labeled data (50 points * 39 weeks), learn parameters of the given function and see total loss
 2. Design and train NN with recurrent neurons
 3. See if results are better
 
